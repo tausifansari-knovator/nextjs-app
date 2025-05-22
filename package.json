@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.6.1",
+    "mongoose": "^8.1.1",
+    "next": "14.1.0",
+    "next-auth": "^4.24.5",
+    "nodemailer": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/whatwg-url": "^13.0.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}
